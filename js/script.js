@@ -58,7 +58,7 @@ $(document).on("pageinit",function(){
 		submitHandler: function(form) {
 			   $data = $(form).formSerialize();
 			   $(form).ajaxSubmit({
-					url:"./insert.php",
+					url:"http://www.mindrocketdesign.com/smb/insert.php",
 					data: $data,
 					type:"POST",
 					success: function(){
